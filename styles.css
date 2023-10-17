@@ -1,0 +1,41 @@
+:root {
+    --color-brand-primary:  #fffdff;
+    --color-brand-contrast: #fff;
+    --color-background: #e8dad1;
+    --color-light-blue: #B0C4DE;
+}
+
+header {
+    background-color: var(--color-brand-primary);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+}
+
+footer {
+    overflow: auto;
+    background-color: var(--color-light-blue);
+}
+
+.card {
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(182, 89, 27, 0.25);
+    border: 1px solid rgba(228, 75, 15, 0.4);
+    margin-top: 0.25em;
+}
+    
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
+.my-button {
+    background-color: var(--color-light-blue);
+}
