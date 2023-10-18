@@ -1,13 +1,13 @@
 :root {
-    --color-brand-primary:  #fffdff;
-    --color-brand-contrast: #fff;
-    --color-background: #e8dad1;
-    --color-light-blue: #B0C4DE;
+    --color-brand-primary:  #faecdb;
+    --color-brand-contrast: #6F4E37;
+    --color-background: #fadecd;
+    --color-light-blue: #41a5e7;
 }
 
-header {
+/*header {
     background-color: var(--color-brand-primary);
-}
+}*/
 
 html, body {
     margin: 0;
@@ -38,4 +38,16 @@ footer {
 
 .my-button {
     background-color: var(--color-light-blue);
+}
+
+.bg-primary {
+    background-color: var(--color-brand-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--color-brand-contrast) !important;
+}
+
+nav .navbar-nav li a {
+    color: var(--color-brand-contrast) !important;
 }

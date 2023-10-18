@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Products</title>
 </head>
-<body>
-    <header class="m-4">
-        <img src="images/logo.png" alt="Logo" width="400" height="150">
 
-        <nav class="nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="products.html">Products</a>
-            <a class="nav-link" href="aboutus.html">About Us</a>
+<body>
+    <header class="m-4 p-5">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary mb-5">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Logo" width="250" height="80">
+                </a>
+
+                <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main class="m-6">
-        <h1 class="text-center">Coffee Machines</h1>
-        <div class="container">
+        <h1 class="text-center mt-5 pb-2">Coffee Machines</h1>
+        <p class="text-center pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="container pb-5">
             <div class="row row-cols-1 row-cols-md-2 g-5">
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-1.png" alt="Blue brown coffee machine">
                         <div class="card-body">
-                        <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Retro Coffee Machine</h5>
                             <strong>$14.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -37,9 +62,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-2.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Eco Design</h5>
                             <strong>$15.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -47,9 +73,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-3.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Mocha Master</h5>
                             <strong>$16.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -57,20 +84,22 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-4.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Daily Coffee</h5>
                             <strong>$13.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-5.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Oracle</h5>
                             <strong>$12.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -78,9 +107,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-6.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Cafe Gaia</h5>
                             <strong>$11.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -88,9 +118,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-7.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Cream Coffee</h5>
                             <strong>$10.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -98,20 +129,22 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-8.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Espresso Machine</h5>
                             <strong>$9.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-9.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Barista</h5>
                             <strong>$14.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -119,9 +152,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-10.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Classic Coffee Machine</h5>
                             <strong>$18.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -129,9 +163,10 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-11.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Auto Drip</h5>
                             <strong>$19.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -139,77 +174,109 @@
                     <div class="card">
                         <img class="card-img-top" src="images/coffeemachine-12.png" alt="Coffee machine">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee machine</h5>
+                            <h5 class="card-title">Cute Coffee Machine</h5>
                             <strong>$16.95</strong>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <hr/>
+        <hr />
 
-        <img src="images/coffee.jpg" alt="coffee" width="200px" height="200px" class="mx-auto d-block">
-        <h1 class="text-center">Coffee Party</h1>
-        <div>
-            <p class="text-center">Sign up for our coffee party where we present a variety of coffees, and offer taste tests together with delicious dark chocolate.</p>
+        <div class="mt-5">
+            <img src="images/coffee.jpg" alt="coffee" width="200px" height="200px" class="mx-auto d-block">
+            <h1 class="text-center mt-3">Coffee Party</h1>
+            <div>
+                <p class="text-center">Sign up for our coffee party where we present a variety of coffees, and offer
+                    taste tests together with delicious dark chocolate.</p>
+            </div>
         </div>
 
-        <div class="container-md">
-            <h4>For individuals</h4>
-                <form class="row g-3">
-                    
-                    <div class="col-md-6">
+        <div class="container mb-4">
+            <div class="row gx-5">
+                <div class="col-sm-6 mb-3">
+                    <h4>For individuals</h4>
+                <form class="needs-validation" action="done.html" method="get" novalidate>
+                <div class="row">
+                    <div class="col-lg-6">
                         <label for="inputFirstName" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="Enter First name">
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="Enter First name" required>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <label for="inputLastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="inputLastName" placeholder="Enter Last name">
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Enter Last name" required>
                     </div>
-                    <div class="col-12">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
                         <label for="inputEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-6">
+                        <label for="inputPhoneNr" class="form-label">Phone number</label>
+                        <input type="tel" class="form-control" id="inputPhoneNr" placeholder="+46-12-345-678" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
                         <label for="inputInfo" class="form-label">Anything you want us to know</label>
                         <textarea class="form-control" id="inputInfo" rows="3"></textarea>
                     </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn my-button">Submit</button>
-                    </div>
-                </form>
+                </div>
+                
+                <button type="submit" class="btn btn-primary mt-3 my-button">Submit</button>
+            </form>
+                </div>
 
-                <h4 class="m-9">For business</h4>
-                <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputCompanyName" class="form-label">Company name</label>
-                            <input type="text" class="form-control" id="inputCompanyName" placeholder="Fill in Company Name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputOrgNr" class="form-label">Organisation Number</label>
-                            <input type="number" class="form-control" id="inputOrgNr" placeholder="Fill in Org number">
-                        </div>
-                        <div class="col-12">
-                            <label for="inputBusinessEmail" class="form-label">Business Email</label>
-                            <input type="email" class="form-control" id="inputBusinessEmail" placeholder="name@example.com">
-                        </div>
-                        <div class="col-12">
-                            <label for="inputInfo" class="form-label">Anything you want us to know</label>
-                            <textarea class="form-control" id="inputInfo" rows="3"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn my-button">Submit</button>
-                        </div>
-                </form>
-        </div>     
+                <div class="col-sm-6">
+                    <h4>For business</h4>
+            <form class="needs-validation" action="done.html" method="get" novalidate>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="inputCompanyName" class="form-label">Company name</label>
+                        <input type="text" class="form-control" id="inputCompanyName" placeholder="Fill in Company Name" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="inputOrgNr" class="form-label">Organisation Number</label>
+                        <input type="number" class="form-control" id="inputOrgNr" placeholder="Fill in Org number" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="inputBusinessEmail" class="form-label">Business Email</label>
+                        <input type="email" class="form-control" id="inputBusinessEmail" placeholder="name@example.com" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="inputPhoneNr" class="form-label">Phone number</label>
+                        <input type="tel" class="form-control" id="inputPhoneNr" placeholder="+46-12-345-678" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="inputInfo" class="form-label">Anything you want us to know</label>
+                        <textarea class="form-control" id="inputInfo" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 my-button">Submit</button>
+            </form>
+                </div>
+            </div>
+
+            
+
+            
+        </div>
     </main>
 
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3">
-          Coffee Party © 2023 All rights reserved
+            Coffee Party © 2023 All rights reserved
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></script>
+    <script src="js/form-validation.js"></script>
 </body>
 </html>
